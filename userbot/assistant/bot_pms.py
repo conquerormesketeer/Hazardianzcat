@@ -109,7 +109,9 @@ async def bot_start(event):
                         \n\nPowered by [Catuserbot](https://t.me/catuserbot)"
         buttons = [
             (
-                Button.url("Repo", "https://github.com/conquerormesketeer/Hazardianzcat"),
+                Button.url(
+                    "Repo", "https://github.com/conquerormesketeer/Hazardianzcat"
+                ),
                 Button.url(
                     "Dev",
                     "https://t.me/CoNqUeRoRmEsKeTtEr",
